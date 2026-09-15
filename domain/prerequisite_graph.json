@@ -1,0 +1,30 @@
+{
+  "course_id": "data_structures",
+  "root_concept": "binary_tree_inorder_traversal",
+  "nodes": [
+    {
+      "id": "binary_tree_inorder_traversal",
+      "title": "Binary Tree Inorder Traversal",
+      "description": "Traverse left subtree, visit node, traverse right subtree.",
+      "prerequisites": ["traversal_ordering_rules", "recursion"]
+    },
+    {
+      "id": "traversal_ordering_rules",
+      "title": "Traversal Ordering Rules",
+      "description": "Understanding L-N-R sequence relative to root.",
+      "prerequisites": []
+    },
+    {
+      "id": "recursion",
+      "title": "Recursion",
+      "description": "Function calling itself on subproblems.",
+      "prerequisites": ["call_stack_reasoning"]
+    },
+    {
+      "id": "call_stack_reasoning",
+      "title": "Call Stack Reasoning",
+      "description": "Call stack frames, base cases, and return unwinding.",
+      "prerequisites": []
+    }
+  ]
+}
